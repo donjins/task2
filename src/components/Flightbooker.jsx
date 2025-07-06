@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Flightbooker() {
   const[flighttype, setflightType]= useState('one-way');
-  const[departureDate, setDepauredate]= useState("");
+  const[departureDate, setDepaturedate]= useState("");
   const[returnDate, setreturndate]= useState("");
   
   const HandleSubmitt = () => {
