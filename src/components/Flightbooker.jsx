@@ -10,7 +10,7 @@ function Flightbooker() {
   const HandleSubmitt = () => {
     if (flighttype == 'one-way'){
       alert(`You have booked a one-way flight on ${departureDate}`)
-    }ese{
+    }else{
       alert(` You have booked a return flight from ${departureDate} to ${returnDate}.` )
     }
   }
