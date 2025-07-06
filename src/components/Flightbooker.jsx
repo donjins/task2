@@ -9,7 +9,7 @@ function Flightbooker() {
   
   const HandleSubmitt = () => {
     if (flighttype == 'one-way'){
-      aert(`You have booked a one-way flight on ${departureDate}`)
+      alert(`You have booked a one-way flight on ${departureDate}`)
     }else{
       alert(` You have booked a return flight from ${departureDate} to ${returnDate}.` )
     }
