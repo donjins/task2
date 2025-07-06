@@ -22,7 +22,7 @@ function Flightbooker() {
       <div style={{marginBottom:'10px'}}>
         <label>oneway</label>
         
-        <input type='radio' value="oneway" checked={flighttype === 'oneay'} onChange={() => setflightType('oneway')}/>
+        <input type='radio' value="oneway" checked={flighttype === 'oneway'} onChange={() => setflightType('oneway')}/>
          <label>round</label>
         <input type='radio' value="return" checked={flighttype === 'return'} onChange={() => setflightType('return')}/>
         <div>
